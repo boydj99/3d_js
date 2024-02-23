@@ -4,7 +4,7 @@ import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
 import HelvetikerFont from 'three/examples/fonts/helvetiker_regular.typeface.json';
 
-
+//center coord based on box size, numboxes, and which box position in the cube
 function center(size, numBoxes, pos){
   return (size*(2*pos - numBoxes + 1))/2;
 }
